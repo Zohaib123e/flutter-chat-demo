@@ -6,14 +6,7 @@ import 'package:flutter_chat_demo/models/models.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-enum Status {
-  uninitialized,
-  authenticated,
-  authenticating,
-  authenticateError,
-  authenticateException,
-  authenticateCanceled,
-}
+
 
 class AuthProvider extends ChangeNotifier {
   final GoogleSignIn googleSignIn;
